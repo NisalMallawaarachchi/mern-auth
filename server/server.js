@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 // Test Route
 app.get("/", (req, res) => {
-  res.json({ message: "Auth Server is running 🚀" });
+  res.json({ message: "Auth Server is running" });
 });
 
 // Start Server
